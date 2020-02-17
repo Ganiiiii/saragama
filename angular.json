@@ -20,8 +20,8 @@
             "tsConfig": "tsconfig.app.json",
             "aot": false,
             "assets": [
-              "src/music.png",
-              "src/assets"
+              "src/assets",
+              "src/music.png"
             ],
             "styles": [
               "src/styles.css"

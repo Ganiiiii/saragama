@@ -1,0 +1,9 @@
+.hide_box_shadow {
+  box-shadow: none;
+}
+.image_width {
+  width: 40px;
+}
+.mr-10 {
+ margin-right: 10px;
+}
