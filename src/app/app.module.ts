@@ -6,9 +6,16 @@ import { AppComponent } from './app.component';
 
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireStorageModule } from '@angular/fire/storage';
+import { AddUserComponent } from './add-user/add-user.component';
+import { MenuBarComponent } from './menu-bar/menu-bar.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AddUserComponent,
+    MenuBarComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
@@ -23,6 +30,7 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
       appId: "1:124296449440:web:e9648b3a0c14083ab5e8c5",
       measurementId: "G-DCZ0ZRQNJY"
     }),
+    AngularFireStorageModule,
     AngularFirestoreModule
   ],
   providers: [],
